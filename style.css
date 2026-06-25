@@ -55,7 +55,6 @@ margin: 0;
 }
 #header > img{
 margin-top: 60px;
-/* margin-right: 30px; */
 }
 .cards-develop{
 color: #2F1F5F;
@@ -287,7 +286,7 @@ line-height: 28px;
 }
 .icon-image-inline, .heading-inline {
 display: inline;
-margin: 0; /* Remove default margins if needed */
+margin: 0; 
 }
 .heading-inline{
 font-family: playfair Display;
@@ -350,15 +349,6 @@ right: -36px;
 .review-carousel .carousel-indicators {
 bottom: -4px;
 }
-.require{
-display: flex;
-}
-.pad{
-margin-left: 40px;
-}
-.focus{
-margin: 20px;
-}
 br{
 display: block;
 content: normal;
@@ -368,9 +358,7 @@ margin: 0px;
 display:flex;
 align-items: center;
 }
-.project-par{
-margin: 0px;
-}
+
 .contact-layout {
 display: grid;
 grid-template-columns: minmax(320px, 1.1fr) minmax(280px, 0.9fr);
@@ -410,7 +398,6 @@ color: #2F1F5F;
 width: 100%;
 border: none;
 box-shadow: 0 0 30px 5px rgba(47, 31, 95, 0.30);
-/* border: 1px solid #d8d3eb; */
 border-radius: 8px;
 padding: 12px;
 font-family: "Montserrat", sans-serif;
@@ -515,18 +502,6 @@ margin-top: 40px;
 hr{
 color: #2F1F5F;
 }
-.col-md-4 {
-display: flex;
-flex-direction: column;
-}
-.full-card-img {
-width: 100%;
-height: 100%;
-position: absolute;
-top: 0;
-left: 0;
-object-fit: cover; 
-}
 .col-md-4 .card {
 position: relative;
 min-height: 100%; 
@@ -558,7 +533,6 @@ color: #555;
 font-size: 1rem;
 margin-bottom: 32px;
 }
-/* ── Nav arrows ── */
 .carousel-control-prev,
 .carousel-control-next {
 width: 44px;
@@ -584,7 +558,6 @@ height: 44px;
 }
 .carousel-control-prev-icon::after { content: '‹'; }
 .carousel-control-next-icon::after { content: '›'; }
-/* ── Slide card ── */
 .slide-card {
 background: var(--card-bg);
 border-radius: 14px;
@@ -593,7 +566,6 @@ display: flex;
 min-height: 280px;
 box-shadow: 0 4px 24px rgba(0,0,0,0.06);
 }
-/* ── Info panes ── */
 .slide-pane {
 flex: 0 0 33.333%;
 padding: 36px 32px 32px;
@@ -602,7 +574,6 @@ border-right: 1px solid #f0ede8;
 .slide-pane:last-of-type {
 border-right: 1px solid #f0ede8;
 }
-/* ── Step badge ── */
 .step-badge {
 display: inline-flex;
 align-items: center;
@@ -627,7 +598,6 @@ font-weight: lighter;
 font-family: playfair;
 font-size: 36px;
 }
-/* ── Sub heading row ── */
 .pane-heading-row {
 display: flex;
 align-items: flex-start;
@@ -642,7 +612,6 @@ color: #1a1a2e;
 margin: 0;
 line-height: 1.35;
 }
-/* ── Tags ── */
 .tags-col {
 display: flex;
 flex-direction: column;
@@ -658,14 +627,12 @@ padding: 4px 10px;
 border-radius: 20px;
 white-space: nowrap;
 }
-/* ── Body text ── */
 .pane-body {
 font-family: "Montserrat", sans-serif;
 font-size: 16px;
 font-weight: lighter;
 color: #0B090A;
 }
-/* ── Buttons ── */
 .pane-actions {
 display: flex;
 gap: 10px;
@@ -707,7 +674,6 @@ font-weight: 300;
 font-family: playfair;
 text-decoration: none;
 }
-/* ── Photo pane ── */
 .photo-pane {
 flex: 0 0 33.333%;
 overflow: hidden;
@@ -724,53 +690,10 @@ position: relative;
 position: absolute;
 }
 .photo-pane img {
-/* display: block; */
 width: 100%;
 height: 100%;
 object-fit: contain;
 box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-}
-/* ── Placeholder screenshot ── */
-.screenshot-placeholder {
-width: 100%;
-height: 180px;
-background-color: #C5C1D3;
-border-radius: 10px;
-box-shadow: 0 4px 20px rgba(0,0,0,0.12);
-overflow: hidden;
-} 
-.screenshot-placeholder .bar {
-background: #f8f8f8;
-border-bottom: 1px solid #eee;
-display: flex;
-align-items: center;
-gap: 5px;
-padding: 0 10px;
-} 
-.screenshot-placeholder .bar .dot {
-width: 7px;
-height: 7px;
-border-radius: 50%;
-background: #ddd;
-} 
-.screenshot-placeholder .content-area {
-padding: 16px 18px;
-} 
-.screenshot-placeholder .hero-img {
-width: 100%;
-height: 90px; 
-background: linear-gradient(135deg, #e8e6f0 0%, #d0cedf 100%);
-border-radius: 6px;
-}
-.screenshot-placeholder .hero-img span {
-font-size: 0.7rem;
-color: #888;
-font-style: italic;
-} 
-.screenshot-placeholder .text-row {
-height: 8px;
-background: #eee;
-border-radius: 4px;
 }
 .screenshot-placeholder .text-row.short { width: 60%; }
 .screenshot-placeholder .text-row.med   { width: 80%; } */
@@ -779,22 +702,15 @@ display: flex;
 gap: 6px;
 margin-top: 10px;
 } 
-.screenshot-placeholder .mock-btn {
-height: 20px;
-width: 70px;
-border-radius: 4px;
-}
 .screenshot-placeholder .mock-btn.fill    { background: var(--navy); }
 .screenshot-placeholder .mock-btn.outline { border: 1.5px solid var(--navy); background: transparent; } */
-/* ── Indicators ── */
+
 .carousel-indicators {
 bottom: -10px;
 }
-/* ── Carousel outer ── */
+
 .carousel-wrapper {
 position: relative;
-/* margin-top: 24px; */
-/* margin-bottom: 25px; */
 padding-bottom: 28px;
 overflow: visible;
 }
@@ -814,7 +730,6 @@ align-items: flex-start;
 margin-top: 0;
 }
 }
-/* ── Responsive ── */
 @media (max-width: 1024px) {
 #header {
 flex-direction: column;
@@ -1058,11 +973,6 @@ margin-top: 30px;
 .review-section {
 padding: 40px 16px;
 }
-.cards-dev{
-margin-top: -10px;
-margin-bottom: -10px;
-display: block;
-}
 #faq{
 padding-top: 60px;
 padding-bottom: 60px;
@@ -1102,16 +1012,6 @@ padding-bottom: 60px;
 }
 .why-work-card{
 margin-top: 40px;
-}
-.cards-dev{
-margin-top: -10px;
-margin-bottom: -10px;
-display: block;
-}
-.cards-work-steps{
-margin-top: -10px;
-margin-bottom: -10px;
-display: block;
 }
 .container-services-steps{
 margin-top: -10px;

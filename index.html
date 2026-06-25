@@ -225,23 +225,21 @@
             </div>
          </div>
       </section>
-      <!-- Projects section carousel AI helped -->
       <section id="projects" class="projects-section">
          <h2 class="aboutUs projects-title">Projects</h2>
          <p class="whoWeAre dev projects-subtitle">Recent projects showcasing design excellence and technical expertise</p>
          <div class="carousel-wrapper">
             <div id="projectsCarousel" class="carousel slide" data-bs-ride="false">
-               <!-- Indicators -->
                <div class="carousel-indicators">
                   <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
                   <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="1"></button>
                   <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="2"></button>
+                  <button type="button" data-bs-target="#projectsCarousel" data-bs-slide-to="3"></button> 
                </div>
                <div class="carousel-inner">
                   <!-- ── Slide 1 ── -->
                   <div class="carousel-item active">
                      <div class="slide-card">
-                        <!-- Pane 1: UX/UI Design -->
                         <div class="slide-pane">
                            <div class="step-badge">
                               <span class="step-number">1</span>
@@ -259,7 +257,6 @@
                               <a class="btn-book" href="tel:+13604331716">Book a call</a>
                            </div>
                         </div>
-                        <!-- Pane 2: Code + Deploy -->
                         <div class="slide-pane">
                            <div class="step-badge">
                               <span class="step-number">2</span>
@@ -277,14 +274,11 @@
                               <a class="btn-view" href="https://bakery-goldencrust.netlify.app/" target="_blank">View project</a>
                            </div>
                         </div>
-                        <!-- Pane 3: image -->
                         <div class="photo-pane">
                            <img src="images/golden crust.png" alt="bakery">
                         </div>
                      </div>
                   </div>
-                  <!-- /slide 1 -->
-                  <!-- ── Slide 2 ── -->
                   <div class="carousel-item">
                      <div class="slide-card">
                         <div class="slide-pane">
@@ -326,8 +320,6 @@
                         </div>
                      </div>
                   </div>
-                  <!-- /slide 2 -->
-                  <!-- ── Slide 3 ── -->
                   <div class="carousel-item">
                      <div class="slide-card">
                         <div class="slide-pane">
@@ -367,17 +359,50 @@
                         <div class="photo-pane">
                            <img src="images/project-stairs.png" alt="LuxStairs Pro">
                         </div>
-                        <div class="bar">
-                           <div class="dot"></div>
-                           <div class="dot"></div>
-                           <div class="dot"></div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="slide-card">
+                        <div class="slide-pane">
+                           <div class="step-badge">
+                              <span class="step-number">1</span>
+                              <p class="step-title step">UX/UI Design</p>
+                           </div>
+                           <div class="pane-heading-row">
+                              <h4 class="step">Brand Identity<br>& Figma Design</h4>
+                              <div class="tags-col">
+                                 <span class="tag">#UXResearch #Figma</span>
+                                 <span class="tag">#Prototyping</span>
+                              </div>
+                           </div>
+                           <p class="pane-body">Researched user needs and designed the full UI from scratch in Figma, including layout, color palette, and typography tailored to a small Ukrainian podology business and its local audience.</p>
+                           <div class="pane-actions">
+                              <a class="btn-book" href="tel:+13604331716">Book a call</a>
+                           </div>
+                        </div>
+                        <div class="slide-pane">
+                           <div class="step-badge">
+                              <span class="step-number">2</span>
+                              <p class="step-title">Code + Deploy</p>
+                           </div>
+                           <div class="pane-heading-row">
+                              <h4 class="step">Landing Page <br>Podolog Ukrainian Website</h4>
+                              <div class="tags-col">
+                                 <span class="tag">#HTML/CSS #JS #Bootstrap</span>
+                                 <span class="tag">#ClientCollaboration</span>
+                              </div>
+                           </div>
+                           <p class="pane-body">Built through close collaboration with the client at every step, delivering a responsive landing page that highlights key services and makes it easy for customers to get in touch.</p>
+                           <div class="pane-actions">
+                              <a class="btn-view" href="https://podolog-ukraine.netlify.app/" target="_blank">View project</a>
+                           </div>
+                        </div>
+                        <div class="photo-pane">
+                           <img src="images/podolog.png" alt="Podolog">
                         </div>
                      </div>
                   </div>
-                  <!-- /slide 3 -->
                </div>
-               <!-- /carousel-inner -->
-               <!-- Controls -->
                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel" data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                <span class="visually-hidden">Previous</span>
@@ -387,9 +412,7 @@
                <span class="visually-hidden">Next</span>
                </button>
             </div>
-            <!-- /carousel -->
          </div>
-         <!-- /wrapper -->
       </section>
       <section id="reviews">
          <div class="review-section">
@@ -399,6 +422,7 @@
                <div class="carousel-indicators">
                   <button type="button" data-bs-target="#reviewsCarouselDesktop" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#reviewsCarouselDesktop" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#reviewsCarouselDesktop" data-bs-slide-to="2" aria-label="Slide 3"></button>  <!-- ADD THIS -->
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -407,13 +431,13 @@
                            <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                            <p class="card-par review-text">Great communication and fast delivery. The website was built exactly as designed and works perfectly on all devices. Highly recommend.</p>
                            <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                           <p class="cards-review">Sasha K.. <span>Store owner</span></p>
+                           <p class="cards-review">Sasha K... <span>Store owner</span></p>
                         </div>
                         <div class="review-carousel-card">
                            <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                            <p class="card-par review-text">Very professional. Clean code, attention to detail, and delivered on time. Would definitely work together again.</p>
                            <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                           <p class="cards-review">Emma P.. <span>Coffee Shop Owner</span></p>
+                           <p class="cards-review">Emma P... <span>Coffee Shop Owner</span></p>
                         </div>
                      </div>
                   </div>
@@ -423,13 +447,24 @@
                            <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                            <p class="card-par review-text">The project was completed smoothly from start to finish. Design matched perfectly and everything was well organized.</p>
                            <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                           <p class="cards-review">Olga M.. <span>Beauty Salon</span></p>
+                           <p class="cards-review">Olga M... <span>Beauty Salon</span></p>
                         </div>
                         <div class="review-carousel-card">
                            <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                            <p class="card-par review-text">Very clear communication and updates throughout the project. I always knew what stage the work was in. Delivery was on time and exceeded expectations.</p>
                            <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                           <p class="cards-review">Dany A.. <span>Stairs Company</span></p>
+                           <p class="cards-review">Dany A... <span>Stairs Company</span></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="review-slide-grid">
+                        <div class="review-carousel-card">
+                           <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
+                           <p class="card-par review-text">The whole process was done at a really high level — every detail and every wish I had was taken care of. The final result is modern, beautiful, and so easy to use. Honestly, it went beyond what I even imagined. Highly recommend to anyone looking for quality web development.</p>
+                           <p class="review-translated"><em>* Translated from Ukrainian</em></p>
+                           <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
+                           <p class="cards-review">Olena P... <span>Podolog</span></p>
                         </div>
                      </div>
                   </div>
@@ -449,6 +484,7 @@
                   <button type="button" data-bs-target="#reviewsCarouselMobile" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#reviewsCarouselMobile" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#reviewsCarouselMobile" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#reviewsCarouselMobile" data-bs-slide-to="4" aria-label="Slide 5"></button>  <!-- ADD THIS -->
                </div>
                <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -456,7 +492,7 @@
                         <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                         <p class="card-par review-text">Great communication and fast delivery. The website was built exactly as designed and works perfectly on all devices. Highly recommend.</p>
                         <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                        <p class="cards-review">Sasha K.. <span>Store owner</span></p>
+                        <p class="cards-review">Sasha K... <span>Store owner</span></p>
                      </div>
                   </div>
                   <div class="carousel-item">
@@ -464,7 +500,7 @@
                         <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                         <p class="card-par review-text">Very professional. Clean code, attention to detail, and delivered on time. Would definitely work together again.</p>
                         <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                        <p class="cards-review">Emma P.. <span>Coffee Shop Owner</span></p>
+                        <p class="cards-review">Emma P... <span>Coffee Shop Owner</span></p>
                      </div>
                   </div>
                   <div class="carousel-item">
@@ -472,7 +508,7 @@
                         <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                         <p class="card-par review-text">The project was completed smoothly from start to finish. Design matched perfectly and everything was well organized.</p>
                         <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                        <p class="cards-review">Olga M.. <span>Beauty Salon</span></p>
+                        <p class="cards-review">Olga M... <span>Beauty Salon</span></p>
                      </div>
                   </div>
                   <div class="carousel-item">
@@ -480,7 +516,16 @@
                         <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
                         <p class="card-par review-text">Very clear communication and updates throughout the project. I always knew what stage the work was in. Delivery was on time and exceeded expectations.</p>
                         <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
-                        <p class="cards-review">Dany A.. <span>Stairs Company</span></p>
+                        <p class="cards-review">Dany A... <span>Stairs Company</span></p>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="review-carousel-card">
+                        <img id="icon" src="icons/star-icon.svg" alt="design" width="34" height="34">
+                        <p class="card-par review-text">The whole process was done at a really high level — every detail and every wish I had was taken care of. The final result is modern, beautiful, and so easy to use. Honestly, it went beyond what I even imagined. Highly recommend to anyone looking for quality web development.</p>
+                        <p class="review-translated"><em>* Translated from Ukrainian</em></p>
+                        <img id="icon" src="icons/stars-photo.svg" alt="design" width="100">
+                        <p class="cards-review">Olena P... <span>Podolog</span></p>
                      </div>
                   </div>
                </div>
@@ -534,7 +579,6 @@
                      <li>Free guidance and support provided after launch</li>
                   </ul>
                   <a class="work-with-us-text" href="tel:+13604331716">Work with us<img class="work-with-us-inline-icon" src="icons/Vector.svg" alt="checkmark" width="20" height="20"></a>
-                  <!-- <p class="work-with-us-text">Work with us<img class="work-with-us-inline-icon" src="icons/Vector.svg" alt="checkmark" width="20" height="20"></p> -->
                </div>
             </div>
          </div>
